@@ -1,0 +1,88 @@
+﻿<script type="text/javascript">
+	var type="<%=type%>";
+	$(function(){
+		$("ul.nav li").removeClass("active");
+		$("a[href="+type+"]").parent("li").addClass("active");
+		$(".well").css("margin","10px 0px");
+		$(".navbar").css("margin","5px 0px");
+		/* $(".breadcrumb").css("margin","5px 0px"); */
+	});
+</script>
+<style>
+	
+</style>
+<div class="container">
+	<div class="well well-sm">
+		<!-- <h3 class="text-primary" >【北地城】</h3> -->
+		<h3 class="text-primary" >【宣言】</h3>
+		<p class="text-info lead" style="text-indent:2em;">
+			过放荡不羁的生活，容易得像顺水推舟，但是要结识良朋益友，却难如登天;
+			过放荡不羁的生活，容易得像顺水推舟，但是要结识良朋益友，却难如登天。
+		</p>
+		<!-- <img src="images/river.jpg" class="img-responsive"></img> -->
+	</div>
+	<!-- 导航栏 -->
+	<nav class="navbar navbar-default" role="navigation">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse"
+					data-target="#example-navbar-collapse">
+					<span class="sr-only">切换导航</span> <span class="icon-bar"></span> <span
+						class="icon-bar"></span> <span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand"><strong>简约生活</strong> </a>
+			</div>
+			<div class="collapse navbar-collapse" id="example-navbar-collapse">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="index">首页</a></li>
+					<li><a href="journal">日志</a></li>
+					<li><a href="photo">照片</a></li>
+					<li><a href="talk">说说</a></li>
+					<li><a href="message">留言</a></li>
+					<li><a href="contact">联系方式</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+</div>
+<!-- 打算不用，不好看 -->
+<!-- <div class="container" style="width:60%;height:30%;">
+	轮播
+	<div id="myCarousel" class="carousel slide" data-ride="carousel"
+		data-interval="2000">
+		轮播（Carousel）指标
+		<ol class="carousel-indicators">
+			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			<li data-target="#myCarousel" data-slide-to="1"></li>
+			<li data-target="#myCarousel" data-slide-to="2"></li>
+			<li data-target="#myCarousel" data-slide-to="3"></li>
+			<li data-target="#myCarousel" data-slide-to="4"></li>
+			<li data-target="#myCarousel" data-slide-to="5"></li>
+		</ol>
+		轮播（Carousel）项目
+		<div class="carousel-inner">
+			<div class="item active">
+				<img src="images/bigRiver.jpg" class="img-responsive" />
+			</div>
+			<div class="item">
+				<img src="images/grass.jpg" class="img-responsive" />
+			</div>
+			<div class="item">
+				<img src="images/river.jpg" class="img-responsive" />
+			</div>
+			<div class="item">
+				<img src="images/sky.jpg" class="img-responsive" />
+			</div>
+			<div class="item">
+				<img src="images/snow.jpg" class="img-responsive" />
+			</div>
+			<div class="item">
+				<img src="images/sun.jpg" class="img-responsive" />
+			</div>
+		</div>
+		轮播（Carousel）导航
+		<a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+		<a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;
+		</a>
+	</div>
+</div> -->

@@ -1,0 +1,2 @@
+1.数据库暂时没有使用，如果要使用开启applicationContext.xml文件就可以了
+2.openSessionInView关闭了
